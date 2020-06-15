@@ -1,0 +1,17 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+
+print "please input a number";
+my $num=<STDIN>;
+my $n=1;
+while ($n<($num-1)){
+	$n+=1;
+	my $yushu=$n%2;
+if ($yushu==0){
+	print "current num is $n even \n";
+}else{
+	print "current num is $n odd \n";
+}
+}
+
