@@ -1,3 +1,3 @@
 # perl_practice
-exercises of perl
+exercises of perl /n
 different experience
