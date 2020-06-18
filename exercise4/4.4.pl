@@ -10,8 +10,7 @@ sub add_each{
         if ($x<0){
             # my $count+=1; #统计负数个数
             print "negative number found \n";
-            next;
-            last;
+            return;
         }else {
             $n+=$x;
         }
