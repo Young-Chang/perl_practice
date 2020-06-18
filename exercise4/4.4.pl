@@ -1,7 +1,7 @@
 use warnings;
 use strict;
 
-#还未完成
+#done
 sub add_each{
     my $n=0;
     foreach my $x(qw(1 2 -9 1)){
